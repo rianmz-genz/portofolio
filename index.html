@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Portofolio</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav-bar">
+        <span class="logo">Soekadjan</span>
+        <div class="menu">
+          <ul class="nav-links">
+            <li class="nav-item" onclick="home()">
+              <a href="#home" class="nav-link">
+                <span class="nav-icon fa fa-home"></span>
+                <span class="nav-text">Home</span>
+              </a>
+            </li>
+            <li class="nav-item" onclick="about()">
+              <a href="#about" class="nav-link ">
+                <span class="nav-icon fa fa-contact-card"></span>
+                <span class="nav-text">About</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#project" class="nav-link" onclick="project()">
+                <span class="nav-icon fa-solid fa-timeline"></span>
+                <span class="nav-text">Project</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="darklight " onclick="darklight()">
+          <div class="mooon"><img src="moon.png" id="togel"></div>
+          <img src="sun.png" class="sun">
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="cloud"></div>
+      <div class="cloud_two"></div>
+      <div class="home" id="home">
+        <div class="tengah">
+          <div class="name">
+            <h2><span>Adrian</span>Aji Septa</h2>
+            <p>FrontEnd Developer</p>
+          </div>
+        </div>
+        <div class="atas">
+          <div class="sosmed">
+            <a href="https://github.com/rianmz-genz"><i class="fa-brands
+                fa-github"></i></a>
+            <a href="http://www.linkedin.com/in/adrian-aji-04a508246"><i
+                class="fa-brands fa-linkedin"></i></a>
+            <a
+              href="https://instagram.com/vastroboy?igshid=YmMyMTA2M2Y="><i
+                class="fa-brands fa-instagram"></i></a>
+          </div>
+          <div class="profil">
+            <img src="assets/profill.png">
+          </div>
+          <div class="kir">
+            <h4>Hello, world?</h4>
+            <p>My name is Adrian Aji Septa, I can make amazing website for your company or e-commerce.</p>
+          </div>
+        </div>
+        <div class="downcv">
+          <a href="assets/Adrian Aji (1).pdf" download class="btn-down"><i
+              class="fa-solid fa-download"></i>Download My Cv</a>
+        </div>
+      </div>
+      <div class="title">
+        <h2>About Me</h2>
+      </div>
+      <div class="about" id="about">
+       <div class="isi">
+          <div class="left">
+            <h3>Skills</h3>
+            <div class="progress">
+              <div class="box"></div>
+            </div>
+            <p>Html</p>
+            <div class="progress">
+              <div class="box"></div>
+            </div>
+            <p>Css</p>
+            <div class="progress">
+              <div class="box"></div>
+            </div>
+            <p>JavaScript</p>
+          </div>
+          <div class="left">
+            <h3>Service</h3>
+            <ul>
+              <li><p>Website Company Profile</p></li>
+              <li><p>Website Portofolio</p></li>
+              <li><p>Website E - Commerce</p></li>
+              <li><p>Slicing to html</p></li>
+            </ul>
+          </div>
+        </div>
+          <div class="addres">
+            <div class="log"><i class="fa fa-location"></i></div>
+            <div class="tul"><p>Indonesia, Central Java, Banyumas</p></div>
+          </div>
+          <div class="pilih">
+            <button class="sch" onclick="school()">School</button>
+            <button class="sch" onclick="ex()">Experience</button>
+          </div>
+          <section id="school" class="timeline">
+            <div class="smp">
+              <h2>SMKN 1 PURWOKERTO</h2>
+              <h3>Multimedia</h3>
+              <h4>2019-2022</h4>
+            </div>
+            <div class="smp">
+              <h2>Universitas Amikom Purwokerto</h2>
+              <h3>Informatika</h3>
+              <h4>2022</h4>
+            </div>
+          </section>
+          <section id="experience" class="timelinee">
+            <div class="smpp">
+              <h2>FrontEnd Developer</h2>
+              <h3>Freelancer</h3>
+              <h4>2022</h4>
+            </div>
+          </section>
+      </div>
+      <div class="project" id="project">
+          <h2>My Project</h2>
+          <div class="indicator">
+            <span class="btn aktive"></span>
+            <span class="btn"></span>
+            <span class="btn"></span>
+          </div>
+          <div class="testimonial">
+              <div class="kontainer">
+                <div class="slide-row" id="slide">
+                  <div class="slide-col">
+                    <div class="user-text">
+                      <p>Build your E - commerce website to make sales easy, just click, click, income increases with an attractive appareance.</p>
+                      <h3>E - Commerce</h3>
+                      <a href="https://rianmz-genz.github.io/soekadjan/">Check</a>
+                    </div>
+                    <div class="user-img">
+                      <img src="assets/ecom.png" alt="">
+                    </div>
+                  </div>
+                  <div class="slide-col">
+                    <div class="user-text">
+                      <p>Creative Calculator with neumorphsm and minimalism princip then create your inovation with me more!</p>
+                      <h3>Calculator Neumorphism</h3>
+                      <a href="https://rianmz-genz.github.io/kalkulator/">Check</a>
+                    </div>
+                    <div class="user-img">
+                      <img src="assets/kal.png" alt="">
+                    </div>
+                  </div>
+                  <div class="slide-col">
+                    <div class="user-text">
+                      <p>Create your portofolio website to make it eaasier to find a job with clean look</p>
+                      <h3>Protofolio Design</h3>
+                      <a href="https://rianmz-genz.github.io/Vinka/">Check</a>
+                    </div>
+                    <div class="user-img">
+                      <img src="assets/port.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+           </div>
+           <div class="contactme">
+            <button type="submit" class="butn" onclick="openPopup()">Text me</button>
+           </div>
+           <div class="popup" id="popup">
+            <i class="tutup fa fa-close" onclick="closePopup()"></i>
+            <div class="ats">
+              <i class="us fa fa-message"></i>
+              <p>Can I Help you?</p>
+            </div>
+            <input type="text" placeholder="your message" id="tbuser" maxlength="200">
+            <input type="button" id="btn1" value="Whoosh">
+        </div>
+      </div>
+    </main>
+    <script src="index.js"> </script>
+  </body>
+</html>
